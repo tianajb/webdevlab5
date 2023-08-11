@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, SP">
+    <title>MEGS Chicken & Ribs - Order</title>
+    <!-- style sheets -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="flex">
+            <img src="../images/Logo.jpg" alt="Megs Logo">
+            <h1>MEGS Chicken & Ribs</h1>
+        </a>
+    </header>
+    <main class="order" id="order-page">
+        <h2>Order</h2>
+        <div class="flex">
+            <div>
+                <img src="../images/chicken.jpg" alt="Grab a bite of Megs' Ribs">
+                <section class="mainImg">
+                    <h2>Roast Chicken</h2>
+                    <p> With potatoes corn and carrots on the side<br>
+                        Php 480.00
+                    </p>
+                </section>
+                <form>
+                    <label for="chxQty">Qty:</label>
+                    <input type="text" id="chxQty" value=0>
+                </form>
+            </div>
+            <div>
+                <img src="../images/ribs.jpg" alt="Grab a bite of Megs' Ribs">
+                <section class="mainImg">
+                    <h2>Ribs</h2>
+                    <p> Available in half or full
+                        <br>
+                        Half Php 350.00 | Full Php 600.00
+                    </p>
+                </section>
+                <form>
+                    <label for="ribsSize">Size:</label>
+                    <select name="ribsSize" id="ribsSize">
+                        <option value="full">Full</option>
+                        <option value="half">Half</option>
+                    </select>
+
+                    <label for="ribsQty">Qty:</label>
+                    <input type="text" id="ribsQty" value=0>
+                </form>
+            </div>
+        </div>
+        <p>Total Cost: Php  <span id="calculated-cost">0</span>.</p>
+        <div class="flex">
+            <button class="compute-button" type="button" id="computeButton">Compute Total</button>
+            <button class="submit-button" type="button" id="submitButton">Order</button>
+        </div>
+    </main>
+    <footer>
+        <p>All rights reserved to Jay & Beth</p>
+    </footer>
+    <script src="../scripts/order.js"></script>
+</body>
+
+</html>

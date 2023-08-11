@@ -1,0 +1,137 @@
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+.flex {
+    display:flex; 
+}
+/************* site-wide text styling *************/
+h1{
+    font-size: 60px;
+    text-align: center;
+    line-height: 120px;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.index-button, .menu-button, .submit-button,.compute-button{
+    border: 2px #ff7300 solid;
+    text-align: center;
+    background-color:antiquewhite;
+    line-height: 2;
+}
+.index-button:hover, .menu-button:hover, .submit-button:hover, .compute-button:hover{
+    text-decoration: underline;
+    background-color: #ff7300;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;  
+    color: black;
+}
+/************* header/footer styling *************/
+header, footer{
+    background-color: white;
+}
+header{
+    height: 120px;
+    border: 5px #ff7300 solid;
+    background-color:antiquewhite;
+}
+main{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header img{
+    height: 115px;
+    width: 115px;
+    margin: 2px;
+}
+footer{
+    height: 30px;
+    text-align: center;
+    color: whitesmoke;
+    background-color:  #ff7300;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+h1{
+    margin-left: 20px;
+}
+/************* index page *************/
+main img{
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.mainImg h2{
+    line-height:36px;
+    font-family: "Lucida Handwriting", cursive;
+    padding-bottom: 15px;
+}
+.index p{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.index-button, .menu-button{
+    width: 100px;
+    line-height:36px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/************* menu page *************/
+.menu{
+    font-size: 18px;
+    text-align: center;
+}
+.menu img{
+    width: 275px
+}
+.menu div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-button{
+    margin-top: 20px;
+    margin-left: 320px;
+}
+/************* order page *************/
+.order{
+    font-size: 18px;
+    text-align: center;
+}
+.order img{
+    width: 200px;
+}
+.order div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit-button, .compute-button{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+.compute-button{
+    margin-left: 300px;
+    margin-right: 10px;
+}
+.submit-button{
+    margin-right: 300px;
+    margin-left: 10px;
+}
+input{
+    width: 30px;
+}
+
+
